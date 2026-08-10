@@ -1,10 +1,14 @@
 {
   "name": "npm-install-doist-todoist-mcp",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Minimal Todoist MCP example package",
+  "type": "module",
+  "main": "./index.js",
+  "exports": {
+    ".": "./index.js"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node --test"
   },
   "repository": {
     "type": "git",
@@ -13,7 +17,6 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
   "dependencies": {
     "@doist/todoist-mcp": "^12.5.3",
     "@doist/todoist-sdk": "^13.0.2",
