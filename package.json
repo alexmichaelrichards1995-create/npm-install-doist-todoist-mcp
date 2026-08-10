@@ -1,0 +1,22 @@
+{
+  "name": "npm-install-doist-todoist-mcp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://localhost:26831/alexmichaelrichards1995-create/npm-install-doist-todoist-mcp"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@doist/todoist-mcp": "^12.5.3",
+    "@doist/todoist-sdk": "^13.0.2",
+    "ai": "^7.0.58"
+  }
+}
