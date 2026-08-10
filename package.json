@@ -21,5 +21,9 @@
     "@doist/todoist-mcp": "^12.5.3",
     "@doist/todoist-sdk": "^13.0.2",
     "ai": "^7.0.58"
+  },
+  "overrides": {
+    "dompurify": "3.4.13",
+    "undici": "8.10.0"
   }
 }
